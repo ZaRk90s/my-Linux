@@ -330,4 +330,20 @@ shell zsh
 
 ```
 
+## Actualizar python3
+
+Para poder actualizar python a la última versión tendremos que hacer los siguientes pasos.
+
+```bash
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+sudo apt update
+sudo apt install python3.1x
+
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.10 110
+sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.11 100
+# Seleccionas la versión en la que quieras estar siempre por determinado
+sudo update-alternatives --config python3
+```
+
 ## Si quereis que haga un tutorial en YouTube o que preste más configuraciones no dudeis en dejar vuestra estrella. Podeis contactar conmigo por Twitter <3
