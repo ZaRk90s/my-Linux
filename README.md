@@ -63,6 +63,14 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/
 ls $ZSH/plugins
 ```
 
+## Instalando la p10k
+
+```bash
+# Primero instalamos la powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+```
+
 ## La configuración de mi zsh
 
 ```bash
