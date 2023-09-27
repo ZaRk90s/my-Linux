@@ -1,19 +1,20 @@
-# Modifying Linux
+# Modificando Linux
 
-## Content
+## Contenido
 
-· [🇪🇸 Español]
-· [🇺🇸 English]
+· 🇪🇸 Español
 
 ## ESPAÑOL
 
+Tened en cuenta que tenéis todos los archivos de ese proyecto por si preferís descargarlo.
+
 ## Terminal (Kitty)
 
-Vamos a empezar modificando la terminal, en mi caso uso Kitty como terminal. Podeis usar la terminal con la que mejor os sintais.
+Vamos a empezar modificando la terminal, en mi caso uso Kitty como terminal. Podéis utilizar la terminal con la que mejor os sintáis.
 
 ## Instalando Kitty
 
-Para instalar Kitty tenemos que ejecutar los siguientes comandos
+Para instalar Kitty tenemos que ejecutar los siguientes comandos.
 
 ``` bash
 curl -L <https://sw.kovidgoyal.net/kitty/installer.sh> | sh /dev/stdin
