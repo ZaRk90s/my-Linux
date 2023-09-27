@@ -66,7 +66,10 @@ ls $ZSH/plugins
 ## La configuración de mi zsh
 
 ```bash
-# Copiar
+# Copiar esto dentro de 
+nano ~/.zshrc
+
+
 ```
 
 [`Foreground en azul y cambia el background`]
