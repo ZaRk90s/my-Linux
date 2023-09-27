@@ -37,116 +37,6 @@ sed -i "s|Icon=kitty|Icon=/home/$USER/.local/kitty.app/share/icons/hicolor/256x2
 sed -i "s|Exec=kitty|Exec=/home/$USER/.local/kitty.app/bin/kitty|g" ~/.local/share/applications/kitty*.desktop
 ```
 
-## Configurando la terminal (kitty)
-
-Esto nos ayudara a tener una kitty bastante más amigable con la interfaz gráfica.
-
-### Archivo color.ini
-
-```bash
-# Aquí creamos directamente el archivo y vamos a poder modificarlo
-nano ~/.config/kitty/color.ini
-
-# Insertamos todo este código
-cursor_shape          Underline
-cursor_underline_thickness 1
-window_padding_width  20
-
-# Special
-foreground #a9b1d6
-background #1a1b26
-
-# Black
-color0 #414868
-color8 #414868
-
-# Red
-color1 #f7768e
-color9 #f7768e
-
-# Green
-color2  #73daca
-color10 #73daca
-
-# Yellow
-color3  #e0af68
-color11 #e0af68
-
-# Blue
-color4  #7aa2f7
-color12 #7aa2f7
-
-# Magenta
-color5  #bb9af7
-color13 #bb9af7
-
-# Cyan
-color6  #7dcfff
-color14 #7dcfff
-
-# White
-color7  #c0caf5
-color15 #c0caf5
-
-# Cursor
-cursor #c0caf5
-cursor_text_color #1a1b26
-
-# Selection highlight
-selection_foreground #7aa2f7
-selection_background #28344a
-```
-
-### Archivo kitty.conf
-
-```bash
-# Hacemos lo mismo que antes
-nano ~/.config/kitty/color.ini
-
-# Insertamos el código dentro del archivo
-enable_audio_bell no
-
-include color.ini
-
-font_family      HackNerdFont
-font_size 13
-
-disable_ligatures never
-
-url_color #61afef
-
-url_style curly
-
-map ctrl+left neighboring_window left
-map ctrl+right neighboring_window right
-map ctrl+up neighboring_window up
-map ctrl+down neighboring_window down
-
-cursor_shape beam
-cursor_beam_thickness 1.8
-
-mouse_hide_wait 3.0
-detect_urls yes
-
-repaint_delay 10
-input_delay 3
-sync_to_monitor yes
-
-tap_bar_style powerline
-inactive_tab_background #e06c75
-active_tab_background #98c379
-inactive_tab_foreground #000000
-tab_bar_margin_color black
-
-map ctrl+shift+enter new_window_with_cwd
-map ctrl+shift+t new_tab_with_cwd
-
-background_opacity 0.95
-
-shell zsh
-
-```
-
 ## Configurando la zsh
 
 En la terminal usaremos la *zsh*. Para poder usar la zsh en tu terminal tienes que hacer lo siguiente.
@@ -327,6 +217,116 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.nvm/nvm.sh
+```
+
+## Configurando la terminal (kitty)
+
+Esto nos ayudara a tener una kitty bastante más amigable con la interfaz gráfica. La configuración de la terminal la dejemos para el final.
+
+### Archivo color.ini
+
+```bash
+# Aquí creamos directamente el archivo y vamos a poder modificarlo
+nano ~/.config/kitty/color.ini
+
+# Insertamos todo este código
+cursor_shape          Underline
+cursor_underline_thickness 1
+window_padding_width  20
+
+# Special
+foreground #a9b1d6
+background #1a1b26
+
+# Black
+color0 #414868
+color8 #414868
+
+# Red
+color1 #f7768e
+color9 #f7768e
+
+# Green
+color2  #73daca
+color10 #73daca
+
+# Yellow
+color3  #e0af68
+color11 #e0af68
+
+# Blue
+color4  #7aa2f7
+color12 #7aa2f7
+
+# Magenta
+color5  #bb9af7
+color13 #bb9af7
+
+# Cyan
+color6  #7dcfff
+color14 #7dcfff
+
+# White
+color7  #c0caf5
+color15 #c0caf5
+
+# Cursor
+cursor #c0caf5
+cursor_text_color #1a1b26
+
+# Selection highlight
+selection_foreground #7aa2f7
+selection_background #28344a
+```
+
+### Archivo kitty.conf
+
+```bash
+# Hacemos lo mismo que antes
+nano ~/.config/kitty/color.ini
+
+# Insertamos el código dentro del archivo
+enable_audio_bell no
+
+include color.ini
+
+font_family      HackNerdFont
+font_size 13
+
+disable_ligatures never
+
+url_color #61afef
+
+url_style curly
+
+map ctrl+left neighboring_window left
+map ctrl+right neighboring_window right
+map ctrl+up neighboring_window up
+map ctrl+down neighboring_window down
+
+cursor_shape beam
+cursor_beam_thickness 1.8
+
+mouse_hide_wait 3.0
+detect_urls yes
+
+repaint_delay 10
+input_delay 3
+sync_to_monitor yes
+
+tap_bar_style powerline
+inactive_tab_background #e06c75
+active_tab_background #98c379
+inactive_tab_foreground #000000
+tab_bar_margin_color black
+
+map ctrl+shift+enter new_window_with_cwd
+map ctrl+shift+t new_tab_with_cwd
+
+background_opacity 0.95
+
+shell zsh
+
 ```
 
 ## Si quereis que haga un tutorial en YouTube o que preste más configuraciones no dudeis en dejar vuestra estrella. Podeis contactar conmigo por Twitter <3
