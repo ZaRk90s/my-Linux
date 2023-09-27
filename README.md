@@ -207,14 +207,3 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.nvm/nvm.sh
 ```
-
-[`Foreground en azul y cambia el background`]
-[Las palabras en azul]
-
-``` bash
-Aqui para poder poner comandos de terminal
-```
-
-``` python
-print("Aquí podemos poner todo lo que queramos haciendo lo mismo que en bash pero con el lenguaje que queramos")
-```
