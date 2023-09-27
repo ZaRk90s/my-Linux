@@ -63,12 +63,15 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH/plugins/
 ls $ZSH/plugins
 ```
 
-## Instalando la p10k
+## Instalando la powerlevel10k
 
 ```bash
 # Primero instalamos la powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
 echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+
+# Y para poder activar la powerlevel10k tenemos que ejecutar zsh
+zsh
 ```
 
 ## La configuración de mi zsh
@@ -215,3 +218,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 source ~/.nvm/nvm.sh
 ```
+
+## Si quereis que haga un tutorial en YouTube o que preste más configuraciones no dudeis en dejar vuestra estrella. Podeis contactar conmigo por Twitter <3
