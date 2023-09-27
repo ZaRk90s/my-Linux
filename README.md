@@ -6,7 +6,7 @@
 
 ## ESPAÑOL
 
-Tened en cuenta que tenéis todos los archivos de ese proyecto por si preferís descargarlo.
+Tened en cuenta que tenéis todos los archivos de ese proyecto por si preferís descargarlo. Y todavía no he añadido ninguna configuración sobre mi Linux, actualmente uso Ubuntu, pero no descarto en ningún momento en cambiarme a alguna otra distribución, pero de momento quiero seguir usando Ubuntu porque soy nuevo en esto y prefiero ir cogiendo practica actualmente, cuando haga cambios en mi Linux actualizaré por aquí.
 
 ## Terminal (Kitty)
 
