@@ -217,6 +217,7 @@ function rmk(){
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+# Copiar solamente en caso de querer tener Node.JS instalado en la zsh
 source ~/.nvm/nvm.sh
 ```
 
